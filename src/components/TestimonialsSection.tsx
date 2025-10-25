@@ -47,12 +47,7 @@ export const TestimonialsSection = () => {
               >
                 <Quote className="absolute top-6 right-6 w-12 h-12 text-primary/10" />
                 
-                <div className="flex items-center gap-4 mb-6">
-                  <img
-                    src={testimonial.image}
-                    alt={testimonial.name}
-                    className="w-16 h-16 rounded-full object-cover border-2 border-primary/20"
-                  />
+                <div className="mb-6">
                   <div>
                     <h4 className="font-bold text-foreground">{testimonial.name}</h4>
                     <p className="text-sm text-muted-foreground">{testimonial.role}</p>
