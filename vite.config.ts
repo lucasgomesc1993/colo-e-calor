@@ -18,9 +18,11 @@ export default defineConfig(({ mode }) => ({
   build: {
     rollupOptions: {
       output: {
+        entryFileNames: `assets/[name]-[hash].js`,
+        chunkFileNames: `assets/[name]-[hash].js`,
         assetFileNames: (assetInfo) => {
           if (assetInfo.name === 'favicon.ico') {
-            return 'favicon.ico';
+            return 'favicon.ico'; // Manter o nome exato para o favicon
           }
           return 'assets/[name]-[hash][extname]';
         },
