@@ -23,8 +23,5 @@
         }
       ]
     }
-  ],
-  "public": {
-    "favicon.ico": "favicon.ico"
-  }
+  ]
 }
