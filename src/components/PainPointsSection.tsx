@@ -43,10 +43,10 @@ export const PainPointsSection = () => {
 
             <div className="bg-card rounded-2xl p-8 shadow-lg border border-border">
               <p className="text-lg text-foreground leading-relaxed mb-4">
-                Eu sei que você tem medo de machucar o peito nas primeiras mamadas, não produzir leite o suficiente, ter os seios rejeitados pelo bebê, ter que usar fórmula desnecessariamente e ficar se sentindo culpada por tudo isso...
+                Eu sei que você teme as fissuras nas primeiras mamadas, a falta de leite, o medo de o bebê rejeitar o peito, de precisar recorrer à fórmula ou aos bicos artificiais — e ainda se sentir culpada por tudo isso.
               </p>
               <p className="text-lg text-foreground leading-relaxed">
-                <span className="font-bold text-primary">Mas, existe um caminho</span> para você preparar o seu corpo e sua mente para este momento em sua vida, que pode e deve ser incrível e sem receios.
+                <span className="font-bold text-primary">Mas existe um caminho</span> para você se preparar por completo para viver uma amamentação leve, sem medo e repleta de conexão.
               </p>
             </div>
 
@@ -55,7 +55,7 @@ export const PainPointsSection = () => {
                 E é isso que você vai encontrar no Método Colo & Calor.
               </p>
               <p className="text-lg text-muted-foreground text-center">
-                Existe um caminho para viver esse momento com prazer e confiança. A preparação certa muda tudo.
+                Ele será divisor de águas entre a dor e o PRAZER, a frustração e a LEVEZA.
               </p>
             </div>
 

@@ -69,7 +69,7 @@ export const TestimonialsSection = () => {
 
           <div className="text-center">
             <Button size="lg" className="text-base md:text-lg px-6 md:px-8 py-6 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 whitespace-normal leading-tight">
-              Sim! Eu quero o método Colo & Calor
+              Sim! Eu quero o Método Colo & Calor
             </Button>
           </div>
         </div>

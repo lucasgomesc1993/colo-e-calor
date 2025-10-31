@@ -17,6 +17,19 @@ export const MethodSection = () => {
     "Como tratar fissuras mamárias em casa"
   ];
 
+  // Função para formatar o título com negrito antes dos dois pontos
+  const formatTitle = (title: string) => {
+    const parts = title.split(':');
+    if (parts.length > 1) {
+      return (
+        <>
+          <strong>{parts[0]}</strong>:{parts.slice(1).join(':')}
+        </>
+      );
+    }
+    return title;
+  };
+
   return (
     <section className="py-24 bg-gradient-to-b from-background to-accent/10">
       <div className="container mx-auto px-4">
@@ -41,7 +54,7 @@ export const MethodSection = () => {
                     {module.number}
                   </span>
                   <h3 className="text-foreground text-base leading-tight">
-                    {module.title}
+                    {formatTitle(module.title)}
                   </h3>
                 </div>
               </div>
@@ -61,7 +74,7 @@ export const MethodSection = () => {
                   <div className="w-12 h-12 bg-secondary/10 rounded-full flex items-center justify-center flex-shrink-0">
                     <Video className="w-6 h-6 text-secondary" />
                   </div>
-                  <p className="text-foreground font-medium text-lg">{video}</p>
+                  <p className="text-foreground text-lg">{video}</p>
                 </div>
               ))}
             </div>
