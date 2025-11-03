@@ -13,7 +13,7 @@ Conheça sua Consultora
           </div>
 
           <div className="flex flex-col gap-8 items-center text-left">
-            <div className="relative w-96 h-96 mx-auto">
+            <div className="relative w-64 h-64 md:w-96 md:h-96 mx-auto">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-3xl blur-2xl" />
               <div className="relative w-full h-full bg-gradient-to-br from-primary/10 to-secondary/10 rounded-3xl overflow-hidden">
                 <img

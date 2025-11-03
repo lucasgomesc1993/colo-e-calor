@@ -8,7 +8,7 @@ Conheça sua Consultora
             </div>
 
             <div style="display: flex; flex-direction: column; gap: 2rem; align-items: center; text-align: left;">
-                <div style="position: relative; width: 24rem; height: 24rem; margin: 0 auto;">
+                <div style="position: relative; width: 16rem; height: 16rem; margin: 0 auto;">
                     <div style="position: absolute; inset: 0; background: linear-gradient(to bottom right, hsl(var(--color-primary) / 0.2), hsl(var(--color-secondary) / 0.2)); border-radius: var(--radius-3xl); filter: blur(40px);"></div>
                     <div style="position: relative; width: 100%; height: 100%; background: linear-gradient(to bottom right, hsl(var(--color-primary) / 0.1), hsl(var(--color-secondary) / 0.1)); border-radius: var(--radius-3xl); overflow: hidden;">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/camila-toniatti-2.jpg" 
