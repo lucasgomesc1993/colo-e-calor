@@ -15,7 +15,12 @@
             const trigger = item.querySelector('.faq-trigger');
             const content = item.querySelector('.faq-content');
             
-            trigger.addEventListener('click', function() {
+            // Variáveis para controle de toque
+            let touchStartY = 0;
+            let isTouchScrolling = false;
+            
+            // Função para alternar o acordeão
+            function toggleAccordion() {
                 const isActive = item.classList.contains('active');
                 
                 // Fecha todos os itens
@@ -30,6 +35,45 @@
                     content.style.maxHeight = content.scrollHeight + 'px';
                 }
                 // Se o item estava ativo, ele será fechado (já removemos a classe 'active' acima)
+            }
+            
+            // Adiciona evento de clique
+            trigger.addEventListener('click', function(e) {
+                // Previne o comportamento padrão apenas para cliques reais
+                e.preventDefault();
+                toggleAccordion();
+            });
+            
+            // Adiciona eventos de toque para dispositivos móveis
+            trigger.addEventListener('touchstart', function(e) {
+                touchStartY = e.touches[0].clientY;
+                isTouchScrolling = false;
+            });
+            
+            trigger.addEventListener('touchmove', function(e) {
+                const touchY = e.touches[0].clientY;
+                const touchDiff = Math.abs(touchY - touchStartY);
+                
+                // Se o movimento vertical for significativo, considera como scroll
+                if (touchDiff > 10) {
+                    isTouchScrolling = true;
+                }
+            });
+            
+            trigger.addEventListener('touchend', function(e) {
+                // Só aciona o acordeão se não estiver rolando
+                if (!isTouchScrolling) {
+                    e.preventDefault();
+                    toggleAccordion();
+                }
+            });
+            
+            // Adiciona suporte para teclado (Enter e Space)
+            trigger.addEventListener('keydown', function(e) {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    toggleAccordion();
+                }
             });
         });
     }

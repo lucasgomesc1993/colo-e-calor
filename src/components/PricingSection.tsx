@@ -57,12 +57,14 @@ export const PricingSection = () => {
               
               <div className="mb-6">
                 <div className="text-5xl md:text-6xl font-bold text-primary mb-2">R$ 497,00</div>
-                <p className="text-2xl text-foreground font-semibold">ou 12x de R$ 49,70</p>
+                <p className="text-2xl text-foreground font-semibold">ou 12x de R$ 52,93</p>
               </div>
             </div>
 
-            <Button size="lg" className="w-full text-base md:text-xl py-8 rounded-full bg-gradient-to-r from-primary to-secondary hover:scale-105 hover:shadow-xl transition-all duration-300 whitespace-normal leading-tight">
-              Sim! Eu quero amamentar sem dor e sem complemento!
+            <Button asChild size="lg" className="w-full text-base md:text-xl py-8 rounded-full bg-gradient-to-r from-primary to-secondary hover:scale-105 hover:shadow-xl transition-all duration-300 whitespace-normal leading-tight">
+              <a href="https://lastlink.com/p/C00A5AE1C/checkout-payment/" target="_blank" rel="noopener noreferrer">
+                Sim! Eu quero amamentar sem dor e sem complemento!
+              </a>
             </Button>
 
             <p className="text-center text-sm text-muted-foreground mt-6">

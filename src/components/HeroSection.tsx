@@ -31,8 +31,10 @@ export const HeroSection = () => {
           </div>
 
           <div className="flex justify-center">
-            <Button size="lg" className="text-base md:text-lg px-6 md:px-8 py-6 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 bg-gradient-to-r from-primary to-primary-glow hover:scale-105 whitespace-normal leading-tight">
-              Quero começar agora!
+            <Button asChild size="lg" className="text-base md:text-lg px-6 md:px-8 py-6 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 bg-gradient-to-r from-primary to-primary-glow hover:scale-105 whitespace-normal leading-tight">
+              <a href="https://lastlink.com/p/C00A5AE1C/checkout-payment/" target="_blank" rel="noopener noreferrer">
+                Quero começar agora!
+              </a>
             </Button>
           </div>
         </div>

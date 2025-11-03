@@ -58,7 +58,7 @@
                     
                     <div style="margin-bottom: 1.5rem;">
                         <div style="font-size: 3.75rem; font-weight: 700; color: hsl(var(--color-primary)); margin-bottom: 0.5rem;">R$ 497,00</div>
-                        <p style="font-size: 1.5rem; color: hsl(var(--color-foreground)); font-weight: 600; margin: 0;">ou 12x de R$ 49,70</p>
+                        <p style="font-size: 1.5rem; color: hsl(var(--color-foreground)); font-weight: 600; margin: 0;">ou 12x de R$ 52,93</p>
                     </div>
                 </div>
 

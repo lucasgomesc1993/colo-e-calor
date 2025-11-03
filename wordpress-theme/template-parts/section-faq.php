@@ -34,7 +34,7 @@
                 foreach ($faqs as $index => $faq) :
                 ?>
                 <div class="faq-item" style="background: hsl(var(--color-card)); border-radius: var(--radius-2xl); padding: 0; box-shadow: var(--shadow-soft); border: 1px solid hsl(var(--color-border)); transition: var(--transition-smooth);">
-                    <button class="faq-trigger" style="width: 100%; font-size: 1.125rem; font-weight: 600; color: hsl(var(--color-foreground)); cursor: pointer; display: flex; justify-content: space-between; align-items: center; padding: 2rem; text-align: left; background: none; border: none;">
+                    <button class="faq-trigger" style="width: 100%; font-size: 1.125rem; font-weight: 600; color: hsl(var(--color-foreground)); cursor: pointer; display: flex; justify-content: space-between; align-items: center; padding: 2rem; text-align: left; background: none; border: none;" ontouchstart="">
                         <span><?php echo esc_html($faq['question']); ?></span>
                         <i class="fas fa-chevron-down" style="color: hsl(var(--color-primary)); transition: transform 0.3s ease;"></i>
                     </button>

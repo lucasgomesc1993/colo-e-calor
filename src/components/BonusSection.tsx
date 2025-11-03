@@ -1,38 +1,14 @@
-import { Video, BookOpen, Award, FileText, Heart, Users } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { BookOpen, Gift, Video, FileText, Users, Heart } from "lucide-react";
 
 export const BonusSection = () => {
   const bonuses = [
-    {
-      icon: Video,
-      title: "Bônus 1 - Vídeo aula",
-      description: "Como tratar fissuras mamarias em casa"
-    },
-    {
-      icon: Video,
-      title: "Bônus 2 - Mini vídeo",
-      description: "Como facilitar a introdução alimentar do seu bebê através da amamentação"
-    },
-    {
-      icon: FileText,
-      title: "Bônus 3 - Técnicas",
-      description: "para aumentar sua produção"
-    },
-    {
-      icon: BookOpen,
-      title: "Bônus 4 - Check list",
-      description: "da mamada sem dor, para imprimir e deixar ao lado da poltrona"
-    },
-    {
-      icon: Video,
-      title: "Bônus 5 - Vídeo aula",
-      description: "Seu Bebê não ganha peso? Saiba identificar as possíveis causas"
-    },
-    {
-      icon: Heart,
-      title: "Bônus 6 - Check list",
-      description: "Conheça os 7 alimentos indispensáveis na sua dieta que irão turbinar seu leite"
-    }
+    { icon: Gift, title: "Bônus #1", description: "Ebook: 7 Alimentos Essenciais para uma Amamentação Saudável" },
+    { icon: Video, title: "Bônus #2", description: "Vídeo Aula: Como aumentar sua produção de leite" },
+    { icon: FileText, title: "Bônus #3", description: "Checklist: Mamada sem dor - passo a passo" },
+    { icon: Users, title: "Bônus #4", description: "Acesso à comunidade exclusiva de mães" },
+    { icon: Heart, title: "Bônus #5", description: "Acompanhamento por 30 dias pós-método" },
+    { icon: BookOpen, title: "Bônus #6", description: "Guia: Introdução Alimentar sem prejudicar a amamentação" }
   ];
 
   return (
@@ -68,8 +44,10 @@ export const BonusSection = () => {
           </div>
 
           <div className="text-center">
-            <Button size="lg" className="text-lg px-8 py-6 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
-              Quero todos os bônus!
+            <Button asChild size="lg" className="text-lg px-8 py-6 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
+              <a href="https://lastlink.com/p/C00A5AE1C/checkout-payment/" target="_blank" rel="noopener noreferrer">
+                Quero todos os bônus!
+              </a>
             </Button>
           </div>
         </div>
