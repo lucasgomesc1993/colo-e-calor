@@ -7,17 +7,17 @@ Conheça sua Consultora
                 </h2>
             </div>
 
-            <div style="display: grid; grid-template-columns: 1fr; gap: 3rem; align-items: center;">
-                <div style="position: relative; order: 2;">
+            <div style="display: flex; flex-direction: column; gap: 2rem; align-items: center; text-align: left;">
+                <div style="position: relative; width: 24rem; height: 24rem; margin: 0 auto;">
                     <div style="position: absolute; inset: 0; background: linear-gradient(to bottom right, hsl(var(--color-primary) / 0.2), hsl(var(--color-secondary) / 0.2)); border-radius: var(--radius-3xl); filter: blur(40px);"></div>
-                    <div style="position: relative; aspect-ratio: 1/1; background: linear-gradient(to bottom right, hsl(var(--color-primary) / 0.1), hsl(var(--color-secondary) / 0.1)); border-radius: var(--radius-3xl); overflow: hidden;">
+                    <div style="position: relative; width: 100%; height: 100%; background: linear-gradient(to bottom right, hsl(var(--color-primary) / 0.1), hsl(var(--color-secondary) / 0.1)); border-radius: var(--radius-3xl); overflow: hidden;">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/camila-toniatti-2.jpg" 
                              alt="Camila Toniatti" 
                              style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
                 </div>
 
-                <div style="order: 1;">
+                <div style="max-width: 48rem; margin: 0 auto;">
                     <h3 style="font-size: 1.875rem; color: hsl(var(--color-primary)); font-weight: 700; margin-bottom: 1.5rem;">
                         Camila Toniatti
                     </h3>
@@ -99,17 +99,5 @@ Conheça sua Consultora
 </section>
 
 <style>
-@media (min-width: 768px) {
-    .about-section .max-w-6xl > div[style*='grid'] {
-        grid-template-columns: repeat(2, 1fr) !important;
-    }
-    
-    .about-section .max-w-6xl > div[style*='grid'] > div:nth-child(1) {
-        order: 1 !important;
-    }
-    
-    .about-section .max-w-6xl > div[style*='grid'] > div:nth-child(2) {
-        order: 2 !important;
-    }
-}
+/* Foto sempre acima no layout mobile e desktop */
 </style>

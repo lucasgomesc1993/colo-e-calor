@@ -12,10 +12,10 @@ Conheça sua Consultora
             </h2>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="relative order-2 md:order-1">
+          <div className="flex flex-col gap-8 items-center text-left">
+            <div className="relative w-96 h-96 mx-auto">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-3xl blur-2xl" />
-              <div className="relative aspect-square bg-gradient-to-br from-primary/10 to-secondary/10 rounded-3xl overflow-hidden">
+              <div className="relative w-full h-full bg-gradient-to-br from-primary/10 to-secondary/10 rounded-3xl overflow-hidden">
                 <img
                   src={camilaPhoto}
                   alt="Camila Toniatti"
@@ -24,7 +24,7 @@ Conheça sua Consultora
               </div>
             </div>
 
-            <div className="order-1 md:order-2">
+            <div className="max-w-3xl mx-auto">
               <h3 className="text-3xl text-primary font-bold mb-6">
                 Camila Toniatti
               </h3>
