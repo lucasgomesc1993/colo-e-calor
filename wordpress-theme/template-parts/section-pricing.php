@@ -13,10 +13,9 @@
                 <?php
                 $items = array(
                     array('name' => 'Método Colo & Calor', 'value' => 'R$ 597,00'),
+                    array('name' => 'o que fazer se seu bebê rejeitar o peito nas primeiras mamadas', 'value' => 'R$ 198,00'),
                     array('name' => 'Tratando fissuras em casa', 'value' => 'R$ 57,00'),
-                    array('name' => 'Técnicas aumento na produção', 'value' => 'R$ 129,00'),
                     array('name' => 'Facilitando introdução alimentar durante a amamentação', 'value' => 'R$ 27,00'),
-                    array('name' => 'Possíveis causas da perda de peso do seu bebê', 'value' => 'R$ 129,00'),
                     array('name' => 'Check List 7 Alimentos essenciais', 'value' => 'R$ 9,00'),
                     array('name' => 'Check List Mamada sem dor', 'value' => 'R$ 9,00')
                 );
@@ -41,13 +40,13 @@
                 <div style="border-top: 2px solid hsl(var(--color-primary) / 0.2); padding-top: 1.5rem; margin-bottom: 1.5rem;">
                     <div style="display: flex; align-items: center; justify-content: space-between;">
                         <span style="font-size: 1.25rem; font-weight: 700; color: hsl(var(--color-foreground));">Valor Total:</span>
-                        <span style="font-size: 1.875rem; font-weight: 700; color: hsl(var(--color-muted-foreground)); text-decoration: line-through;">R$ 957,00</span>
+                        <span style="font-size: 1.875rem; font-weight: 700; color: hsl(var(--color-muted-foreground)); text-decoration: line-through;">R$ 897,00</span>
                     </div>
                 </div>
 
                 <div style="background: hsl(var(--color-accent) / 0.3); border-radius: var(--radius-2xl); padding: 1.5rem; margin-bottom: 2rem;">
                     <p style="color: hsl(var(--color-foreground)); line-height: 1.75; text-align: center; margin: 0;">
-                        Esse seria o valor total de cada produto vendido separadamente, e que facilmente poderia custar muito mais, visto que é o método que vai garantir uma experiência perfeita para você e seu bebê.
+                        Esse seria o valor total de cada produto vendido separadamente, e que facilmente poderia custar muito mais, visto que é o <strong style="color: hsl(var(--color-primary)); font-weight: 700;">MÉTODO</strong> que vai garantir uma experiência perfeita para você e seu bebê.
                     </p>
                 </div>
 

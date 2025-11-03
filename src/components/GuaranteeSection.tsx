@@ -34,7 +34,7 @@ export const GuaranteeSection = () => {
                   Compromisso real com o seu resultado
                 </p>
                 <p className="text-xl text-foreground">
-                  Você não tem nada a perder e uma amamentação tranquila a ganhar.
+Você não tem nada a perder, só uma amamentação tranquila a ganhar!
                 </p>
               </div>
             </div>

@@ -2,31 +2,25 @@ import { BookOpen, Video } from "lucide-react";
 
 export const MethodSection = () => {
   const modules = [
-    { number: "Módulo 1", title: "Antes de tudo: Amamentação começa na mente" },
-    { number: "Módulo 2", title: "Ambiente: Preparando o ambiente e o enxoval para amamentar com leveza" },
-    { number: "Módulo 3", title: "Golden Hour: O início que define tudo" },
-    { number: "Módulo 4", title: "Mitos: Quebrando mitos que te impedem de amamentar com confiança" },
-    { number: "Módulo 5", title: "A pega perfeita: Massagens, posições e técnicas de encaixe" },
-    { number: "Módulo 6", title: "Acoplagem: O segredo que muda tudo" },
-    { number: "Módulo 7", title: "Desacoplar: Desacoplando sem dor e corrigindo erros" },
-    { number: "Módulo 8", title: "Pós-mamada: Cuidados após amamentar - Hora da soneca" }
+    { number: "Módulo 1", title: "Antes de tudo: a amamentação começa na sua mente" },
+    { number: "Módulo 2", title: "Preparando o ambiente e o enxoval para amamentar com leveza" },
+    { number: "Módulo 3", title: "Golden Hour: iniciação a amamentação e cuidados práticos" },
+    { number: "Módulo 4", title: "Quebrando os mitos que te impedem de amamentar com confiança" },
+    { number: "Módulo 5", title: "A pega perfeita começa com o preparo da mama e o posicionamento certo" },
+    { number: "Módulo 6", title: "Lapidando a mamada" },
+    { number: "Módulo 7", title: "Finalizando a mamada: desacoplando o bebê e corrigindo problemas" },
+    { number: "Módulo 8", title: "Pós mamada: hora da soneca" }
   ];
 
   const specialVideos = [
-    "Técnicas para aumentar sua produção",
-    "Como tratar fissuras mamárias em casa"
+    "Amamentação de gêmeos",
+    "Salto desenvolvimento 1º mês x volume de leite",
+    "Amamentação x prótese mamária e/ou redução de mama",
+    "Causas das dores nas mamadas que não cessam"
   ];
 
-  // Função para formatar o título com negrito antes dos dois pontos
+  // Função para formatar o título sem negrito
   const formatTitle = (title: string) => {
-    const parts = title.split(':');
-    if (parts.length > 1) {
-      return (
-        <>
-          <strong>{parts[0]}</strong>:{parts.slice(1).join(':')}
-        </>
-      );
-    }
     return title;
   };
 

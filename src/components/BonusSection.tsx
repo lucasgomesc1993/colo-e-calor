@@ -3,12 +3,11 @@ import { BookOpen, Gift, Video, FileText, Users, Heart } from "lucide-react";
 
 export const BonusSection = () => {
   const bonuses = [
-    { icon: Gift, title: "Bônus #1", description: "Ebook: 7 Alimentos Essenciais para uma Amamentação Saudável" },
-    { icon: Video, title: "Bônus #2", description: "Vídeo Aula: Como aumentar sua produção de leite" },
-    { icon: FileText, title: "Bônus #3", description: "Checklist: Mamada sem dor - passo a passo" },
-    { icon: Users, title: "Bônus #4", description: "Acesso à comunidade exclusiva de mães" },
-    { icon: Heart, title: "Bônus #5", description: "Acompanhamento por 30 dias pós-método" },
-    { icon: BookOpen, title: "Bônus #6", description: "Guia: Introdução Alimentar sem prejudicar a amamentação" }
+    { icon: FileText, title: "Bônus #1", description: "Checklist para mamada sem dor (para imprimir e deixar do lado da poltrona)" },
+    { icon: Video, title: "Bônus #2", description: "Mini vídeo: \"o que fazer se o bebê rejeitar o peito nas primeiras mamadas\"" },
+    { icon: BookOpen, title: "Bônus #3", description: "Ebook: 7 alimentos para turbinar sua produção" },
+    { icon: Video, title: "Bônus #4", description: "Mini vídeo: como a introdução alimentar pode ser influenciada pela amamentação" },
+    { icon: BookOpen, title: "Bônus #5", description: "Ebook: tratando fissuras em casa" }
   ];
 
   return (

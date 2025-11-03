@@ -30,7 +30,7 @@
                             Compromisso real com o seu resultado
                         </p>
                         <p style="font-size: 1.25rem; color: hsl(var(--color-foreground)); margin: 0;">
-                            Você não tem nada a perder e uma amamentação tranquila a ganhar.
+                            Você não tem nada a perder, só uma amamentação tranquila a ganhar!
                         </p>
                     </div>
                 </div>

@@ -19,7 +19,7 @@
                         </div>
                         
                         <p style="font-size: clamp(1.125rem, 2vw, 1.25rem); color: hsl(var(--color-foreground)); line-height: 1.75; margin: 0;">
-                            Me chamo <span style="font-weight: 700; color: hsl(var(--color-primary));">Camila Toniatti</span> e após anos de aplicação deste método na prática, ajudando mais de <span style="font-weight: 700; color: hsl(var(--color-primary));">600 mulheres</span> a salvar sua amamentação, estou segura que este passo a passo também vai ajudar <span style="font-weight: 700; color: hsl(var(--color-primary));">Você!!!</span>
+                            Me chamo <span style="font-weight: 700; color: hsl(var(--color-primary));">Camila Toniatti</span> e após anos de aplicação deste Método na prática, ajudando mais de <span style="font-weight: 700; color: hsl(var(--color-primary));">600 mulheres</span> a salvar sua amamentação, estou convicta que este passo a passo também vai ajudar Você!!!
                         </p>
 
                         <div style="display: flex; flex-wrap: wrap; gap: 1rem; padding-top: 0.5rem;">

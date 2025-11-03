@@ -4,10 +4,9 @@ import { CheckCircle } from "lucide-react";
 export const PricingSection = () => {
   const items = [
     { name: "Método Colo & Calor", value: "R$ 597,00" },
+    { name: "o que fazer se seu bebê rejeitar o peito nas primeiras mamadas", value: "R$ 198,00" },
     { name: "Tratando fissuras em casa", value: "R$ 57,00" },
-    { name: "Técnicas aumento na produção", value: "R$ 129,00" },
     { name: "Facilitando introdução alimentar durante a amamentação", value: "R$ 27,00" },
-    { name: "Possíveis causas da perda de peso do seu bebê", value: "R$ 129,00" },
     { name: "Check List 7 Alimentos essenciais", value: "R$ 9,00" },
     { name: "Check List Mamada sem dor", value: "R$ 9,00" }
   ];
@@ -40,13 +39,13 @@ export const PricingSection = () => {
             <div className="border-t-2 border-primary/20 pt-6 mb-6">
               <div className="flex items-center justify-between">
                 <span className="text-xl font-bold text-foreground">Valor Total:</span>
-                <span className="text-3xl font-bold text-muted-foreground line-through">R$ 957,00</span>
+                <span className="text-3xl font-bold text-muted-foreground line-through">R$ 897,00</span>
               </div>
             </div>
 
             <div className="bg-accent/30 rounded-2xl p-6 mb-8">
               <p className="text-foreground leading-relaxed text-center">
-                Esse seria o valor total de cada produto vendido separadamente, e que facilmente poderia custar muito mais, visto que é o método que vai garantir uma experiência perfeita para você e seu bebê.
+                Esse seria o valor total de cada produto vendido separadamente, e que facilmente poderia custar muito mais, visto que é o <span className="font-bold text-primary">MÉTODO</span> que vai garantir uma experiência perfeita para você e seu bebê.
               </p>
             </div>
 

@@ -3,7 +3,7 @@
         <div class="max-w-6xl">
             <div class="text-center mb-16">
                 <h2 style="margin-bottom: 1.5rem;">
-                    Conheça sua consultora
+Conheça sua Consultora
                 </h2>
             </div>
 
@@ -22,15 +22,45 @@
                         Camila Toniatti
                     </h3>
                     <p style="font-size: 1.125rem; color: hsl(var(--color-muted-foreground)); font-weight: 600; margin-bottom: 1.5rem;">
-                        Consultora de Amamentação
+    Consultora em Aleitamento Materno
                     </p>
                     
                     <div style="display: flex; flex-direction: column; gap: 1rem; margin-bottom: 2rem;">
                         <p style="color: hsl(var(--color-foreground)); line-height: 1.75; margin: 0;">
-                            Sou mãe de duas lindas meninas e passei por dificuldades na amamentação. Essa experiência me fez entender os desafios das mães e me motivou a me tornar consultora de amamentação em 2020. Desenvolvi os 8 passos para uma amamentação de sucesso, ajudando mães a amamentar sem dor e com confiança.
+                          Minha jornada de maternidade, como mãe de duas meninas maravilhosas, foi marcada por <strong style="font-weight: 700;">grandes desafios</strong>, especialmente no puerpério e na amamentação. Foram momentos de dor, insegurança e, muitas vezes, de solidão.
                         </p>
                         <p style="color: hsl(var(--color-foreground)); line-height: 1.75; margin: 0;">
-                            Sou idealizadora do evento Bem Gestar, preparatório para gestantes em Mogi das Cruzes, já na 7ª edição. Também sou coautora do livro CONHE'SER VOCÊ, onde compartilho minha experiência na amamentação.
+                          Essa experiência profunda me fez entender, na pele e no coração, os <strong style="font-weight: 700;">verdadeiros desafios</strong> que todas nós, mães, enfrentamos. Foi esse o ponto de virada que me impulsionou: em 2020, decidi transformar minha dor em propósito e me tornei <strong style="font-weight: 700;">Consultora em Aleitamento Materno.</strong>
+                        </p>
+                        <p style="color: hsl(var(--color-foreground)); line-height: 1.75; margin: 0;">
+                          Percebi o quanto eu poderia <strong style="font-weight: 700;">mudar a trajetória e a experiência</strong> de centenas de famílias, transformando angústia em alívio, confiança e alegria. 
+                        </p>
+                        <p style="color: hsl(var(--color-foreground)); line-height: 1.75; margin: 0;">
+                          Minha Missão: Fazer com que você amamente sem dor, <strong style="font-weight: 700;">com confiança total</strong> e desfrute de cada momento.
+                        </p>
+                        <p style="color: hsl(var(--color-foreground)); line-height: 1.75; margin: 0;">
+                          Para isso, desenvolvi os <strong style="font-weight: 700;">"8 Passos para uma Amamentação de Sucesso"</strong> - um método validado que guia você para uma experiência plena e tranquila.
+                        </p>
+                        <p style="color: hsl(var(--color-foreground)); line-height: 1.75; margin: 0;">
+                          Minha dedicação à causa se reflete em diversas frentes:
+                        </p>
+                        <p style="color: hsl(var(--color-foreground)); line-height: 1.75; margin: 0;">
+                          <strong style="font-weight: 700;">Idealizadora do Bem Gestar - Seu Guia, Seu Momento:</strong> O maior evento preparatório para gestantes de Mogi das Cruzes, já em sua <strong style="font-weight: 700;">7ª edição</strong>, preparando mães e pais para o momento mais importante de suas vidas.
+                        </p>
+                        <p style="color: hsl(var(--color-foreground)); line-height: 1.75; margin: 0;">
+                          <strong style="font-weight: 700;">Coautora do Livro Conhe'Ser Você na Maternidade:</strong> Onde compartilho minha experiência pessoal, aliada a informações técnicas e práticas essenciais sobre amamentação.
+                        </p>
+                        <p style="color: hsl(var(--color-foreground)); line-height: 1.75; margin: 0;">
+                          <strong style="font-weight: 700;">Eu acredito, de verdade, que a amamentação muda o mundo. </strong>
+                        </p>
+                        <p style="color: hsl(var(--color-foreground)); line-height: 1.75; margin: 0;">
+                          Amamentar não é apenas sobre nutrição de "padrão ouro". É um ato que envolve a produção e liberação de uma cascata de <strong style="font-weight: 700;">"hormônios do Bem"</strong> que trazem bem-estar e segurança para você e seu bebê.
+                        </p>
+                        <p style="color: hsl(var(--color-foreground)); line-height: 1.75; margin: 0;">
+                          Quando um bebê se sente amado, seguro e acolhido desde o seu primeiro relacionamento fora do útero, por uma mãe feliz e confiante, <strong style="font-weight: 700;">ele floresce</strong>. E é essa base sólida que fará toda a diferença na sociedade que estamos construindo.
+                        </p>
+                        <p style="color: hsl(var(--color-foreground)); line-height: 1.75; margin: 0;">
+                          <strong style="font-weight: 700;">Permita-se viver o melhor da amamentação. Eu estou aqui para guiar você.</strong>
                         </p>
                     </div>
 

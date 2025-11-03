@@ -27,7 +27,7 @@ export const ConsultantSection = () => {
                 </div>
                 
                 <p className="text-lg md:text-xl text-foreground leading-relaxed">
-                  Me chamo <span className="font-bold text-primary">Camila Toniatti</span> e após anos de aplicação deste método na prática, ajudando mais de <span className="font-bold text-primary">600 mulheres</span> a salvar sua amamentação, estou segura que este passo a passo também vai ajudar <span className="font-bold text-primary">Você!!!</span>
+                  Me chamo <span className="font-bold text-primary">Camila Toniatti</span> e após anos de aplicação deste Método na prática, ajudando mais de <span className="font-bold text-primary">600 mulheres</span> a salvar sua amamentação, estou convicta que este passo a passo também vai ajudar Você!!!
                 </p>
 
                 <div className="flex flex-wrap gap-4 pt-2">

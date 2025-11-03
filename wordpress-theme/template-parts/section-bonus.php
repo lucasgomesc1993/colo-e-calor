@@ -13,12 +13,11 @@
             <div class="grid grid-3 mb-12">
                 <?php
                 $bonuses = array(
-                    array('icon' => 'fa-video', 'title' => 'Bônus 1 - Vídeo aula', 'description' => 'Como tratar fissuras mamarias em casa'),
-                    array('icon' => 'fa-video', 'title' => 'Bônus 2 - Mini vídeo', 'description' => 'Como facilitar a introdução alimentar do seu bebê através da amamentação'),
-                    array('icon' => 'fa-file-alt', 'title' => 'Bônus 3 - Técnicas', 'description' => 'para aumentar sua produção'),
-                    array('icon' => 'fa-book-open', 'title' => 'Bônus 4 - Check list', 'description' => 'da mamada sem dor, para imprimir e deixar ao lado da poltrona'),
-                    array('icon' => 'fa-video', 'title' => 'Bônus 5 - Vídeo aula', 'description' => 'Seu Bebê não ganha peso? Saiba identificar as possíveis causas'),
-                    array('icon' => 'fa-heart', 'title' => 'Bônus 6 - Check list', 'description' => 'Conheça os 7 alimentos indispensáveis na sua dieta que irão turbinar seu leite')
+                    array('icon' => 'fa-file-alt', 'title' => 'Bônus #1', 'description' => 'Checklist para mamada sem dor (para imprimir e deixar do lado da poltrona)'),
+                    array('icon' => 'fa-video', 'title' => 'Bônus #2', 'description' => 'Mini vídeo: "o que fazer se o bebê rejeitar o peito nas primeiras mamadas"'),
+                    array('icon' => 'fa-book-open', 'title' => 'Bônus #3', 'description' => 'Ebook: 7 alimentos para turbinar sua produção'),
+                    array('icon' => 'fa-video', 'title' => 'Bônus #4', 'description' => 'Mini vídeo: como a introdução alimentar pode ser influenciada pela amamentação'),
+                    array('icon' => 'fa-book-open', 'title' => 'Bônus #5', 'description' => 'Ebook: tratando fissuras em casa')
                 );
 
                 foreach ($bonuses as $bonus) :

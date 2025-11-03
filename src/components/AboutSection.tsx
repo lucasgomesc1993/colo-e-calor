@@ -8,7 +8,7 @@ export const AboutSection = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
-              Conheça sua consultora
+Conheça sua Consultora
             </h2>
           </div>
 
@@ -29,15 +29,45 @@ export const AboutSection = () => {
                 Camila Toniatti
               </h3>
               <p className="text-lg text-muted-foreground font-semibold mb-6">
-                Consultora de Amamentação
+Consultora em Aleitamento Materno
               </p>
               
               <div className="space-y-4 mb-8">
                 <p className="text-foreground leading-relaxed">
-                  Sou mãe de duas lindas meninas e passei por dificuldades na amamentação. Essa experiência me fez entender os desafios das mães e me motivou a me tornar consultora de amamentação em 2020. Desenvolvi os 8 passos para uma amamentação de sucesso, ajudando mães a amamentar sem dor e com confiança.
+                  Minha jornada de maternidade, como mãe de duas meninas maravilhosas, foi marcada por <span className="font-bold">grandes desafios</span>, especialmente no puerpério e na amamentação. Foram momentos de dor, insegurança e, muitas vezes, de solidão.
                 </p>
                 <p className="text-foreground leading-relaxed">
-                  Sou idealizadora do evento Bem Gestar, preparatório para gestantes em Mogi das Cruzes, já na 7ª edição. Também sou coautora do livro CONHE'SER VOCÊ, onde compartilho minha experiência na amamentação.
+                  Essa experiência profunda me fez entender, na pele e no coração, os <span className="font-bold">verdadeiros desafios</span> que todas nós, mães, enfrentamos. Foi esse o ponto de virada que me impulsionou: em 2020, decidi transformar minha dor em propósito e me tornei <span className="font-bold">Consultora em Aleitamento Materno.</span>
+                </p>
+                <p className="text-foreground leading-relaxed">
+                  Percebi o quanto eu poderia <span className="font-bold">mudar a trajetória e a experiência</span> de centenas de famílias, transformando angústia em alívio, confiança e alegria. 
+                </p>
+                <p className="text-foreground leading-relaxed">
+                  Minha Missão: Fazer com que você amamente sem dor, <span className="font-bold">com confiança total</span> e desfrute de cada momento.
+                </p>
+                <p className="text-foreground leading-relaxed">
+                  Para isso, desenvolvi os <span className="font-bold">"8 Passos para uma Amamentação de Sucesso"</span> - um método validado que guia você para uma experiência plena e tranquila.
+                </p>
+                <p className="text-foreground leading-relaxed">
+                  Minha dedicação à causa se reflete em diversas frentes:
+                </p>
+                <p className="text-foreground leading-relaxed">
+                  <span className="font-bold">Idealizadora do Bem Gestar - Seu Guia, Seu Momento:</span> O maior evento preparatório para gestantes de Mogi das Cruzes, já em sua <span className="font-bold">7ª edição</span>, preparando mães e pais para o momento mais importante de suas vidas.
+                </p>
+                <p className="text-foreground leading-relaxed">
+                  <span className="font-bold">Coautora do Livro Conhe'Ser Você na Maternidade:</span> Onde compartilho minha experiência pessoal, aliada a informações técnicas e práticas essenciais sobre amamentação.
+                </p>
+                <p className="text-foreground leading-relaxed">
+                  <span className="font-bold">Eu acredito, de verdade, que a amamentação muda o mundo. </span>
+                </p>
+                <p className="text-foreground leading-relaxed">
+                  Amamentar não é apenas sobre nutrição de "padrão ouro". É um ato que envolve a produção e liberação de uma cascata de <span className="font-bold">"hormônios do Bem"</span> que trazem bem-estar e segurança para você e seu bebê.
+                </p>
+                <p className="text-foreground leading-relaxed">
+                  Quando um bebê se sente amado, seguro e acolhido desde o seu primeiro relacionamento fora do útero, por uma mãe feliz e confiante, <span className="font-bold">ele floresce</span>. E é essa base sólida que fará toda a diferença na sociedade que estamos construindo.
+                </p>
+                <p className="text-foreground leading-relaxed">
+                  <span className="font-bold">Permita-se viver o melhor da amamentação. Eu estou aqui para guiar você.</span>
                 </p>
               </div>
 
