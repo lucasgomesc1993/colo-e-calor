@@ -5,7 +5,7 @@
         <div class="max-w-6xl" style="margin: 0 auto;">
             <div class="text-center animate-fade-in" style="margin-bottom: 3rem;">
                 <h1 class="text-gradient" style="font-size: clamp(1.875rem, 5vw, 3rem); font-weight: 700; margin-bottom: 1.5rem; line-height: 1.2;">
-                    Você pode amamentar sem dor, com confiança e vivendo uma experiência de amor e conexão com o seu bebê desde o início
+                    Pare de sofrer calada: descubra como amamentar sem dor e criar uma conexão poderosa com seu bebê desde o primeiro instante
                 </h1>
                 <p style="font-size: clamp(1rem, 2vw, 1.125rem); color: hsl(var(--color-muted-foreground)); max-width: 48rem; margin: 0 auto 2rem;">
                     Assista ao vídeo e descubra os 8 passos para uma amamentação de sucesso.
@@ -26,7 +26,7 @@
             </div>
 
             <div class="text-center">
-                <a href="<?php echo colo_calor_get_cta_link(); ?>" class="btn" style="font-size: clamp(1rem, 2vw, 1.125rem); padding: 1.5rem clamp(1.5rem, 4vw, 2rem); display: inline-flex; align-items: center; justify-content: center;">
+                <a href="<?php echo colo_calor_get_cta_link(); ?>" class="btn btn-hero" style="display: inline-flex; align-items: center; justify-content: center; background: linear-gradient(to right, hsl(var(--color-primary)), hsl(var(--color-secondary)));">
                     Quero começar agora!
                 </a>
             </div>

@@ -10,7 +10,7 @@ export const HeroSection = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12 animate-fade-in">
             <h1 className="text-3xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-primary via-primary-glow to-secondary bg-clip-text text-transparent leading-snug md:leading-tight">
-              Você pode amamentar sem dor, com confiança e vivendo uma experiência de amor e conexão com o seu bebê desde o início
+              Pare de sofrer calada: descubra como amamentar sem dor e criar uma conexão poderosa com seu bebê desde o primeiro instante
             </h1>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-8">
               Assista ao vídeo e descubra os 8 passos para uma amamentação de sucesso.
