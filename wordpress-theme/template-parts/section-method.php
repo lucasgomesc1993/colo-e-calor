@@ -7,17 +7,30 @@
                 </h2>
             </div>
 
+            <?php
+            $modules = array(
+                array('number' => 'Módulo 1', 'title' => 'Antes de tudo: a amamentação começa na sua mente', 'icon' => 'fas fa-brain'),
+                array('number' => 'Módulo 2', 'title' => 'Preparando o ambiente e o enxoval para amamentar com leveza', 'icon' => 'fas fa-home'),
+                array('number' => 'Módulo 3', 'title' => 'Golden Hour: iniciação a amamentação e cuidados práticos', 'icon' => 'fas fa-baby'),
+                array('number' => 'Módulo 4', 'title' => 'Quebrando os mitos que te impedem de amamentar com confiança', 'icon' => 'fas fa-ban'),
+                array('number' => 'Módulo 5', 'title' => 'A pega perfeita começa com o preparo da mama e o posicionamento certo', 'icon' => 'fas fa-hands-helping'),
+                array('number' => 'Módulo 6', 'title' => 'Lapidando a mamada', 'icon' => 'fas fa-sync'),
+                array('number' => 'Módulo 7', 'title' => 'Finalizando a mamada: desacoplando o bebê e corrigindo problemas', 'icon' => 'fas fa-check-circle'),
+                array('number' => 'Módulo 8', 'title' => 'Pós mamada: hora da soneca', 'icon' => 'fas fa-moon')
+            );
+            ?>
+
             <div class="grid grid-4" style="gap: 1.5rem;">
                 <?php foreach ($modules as $module): ?>
-                <div class="module-card">
+                <div class="module-card" style="text-align: center;">
                     <div class="icon-wrapper">
                         <i class="<?php echo esc_attr($module['icon']); ?>" style="color: white; font-size: 2rem;"></i>
                     </div>
-                    <div>
+                    <div style="display: flex; flex-direction: column; gap: 0.75rem;">
                         <span class="number-tag">
                             <?php echo esc_html($module['number']); ?>
                         </span>
-                        <h3>
+                        <h3 style="margin: 0; line-height: 1.4; font-weight: normal;">
                             <?php echo esc_html($module['title']); ?>
                         </h3>
                     </div>
@@ -25,8 +38,10 @@
                 <?php endforeach; ?>
             </div>
 
+            <div style="margin-bottom: 3rem;"></div>
+
             <div style="background: linear-gradient(to bottom right, hsl(var(--color-secondary) / 0.1), hsl(var(--color-primary) / 0.1)); border-radius: var(--radius-3xl); padding: 2rem; border: 2px solid hsl(var(--color-secondary) / 0.2);">
-                <h3 style="font-size: 1.5rem; font-weight: 700; color: hsl(var(--color-foreground)); margin-bottom: 1.5rem; text-align: center;">
+                <h3 style="font-size: 1.5rem; font-weight: 700; color: hsl(var(--color-foreground)); margin-bottom: 1.5rem; text-align: center; margin-top: 0;">
                     Vídeos Especiais
                 </h3>
                 <div style="display: flex; flex-direction: column; gap: 1rem;">
