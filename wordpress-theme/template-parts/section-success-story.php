@@ -7,15 +7,15 @@
                 </h2>
             </div>
 
-            <div style="background: hsl(var(--color-card)); border-radius: var(--radius-3xl); padding: 3rem; box-shadow: var(--shadow-soft); border: 2px solid hsl(var(--color-primary) / 0.2); position: relative;">
+            <div style="background: hsl(var(--color-card)); border-radius: var(--radius-3xl); padding: 2rem; box-shadow: var(--shadow-soft); border: 2px solid hsl(var(--color-primary) / 0.2); position: relative;">
                 <i class="fas fa-quote-right" style="position: absolute; top: 2rem; left: 2rem; font-size: 4rem; color: hsl(var(--color-primary) / 0.2);"></i>
                 
                 <div style="position: relative; z-index: 10;">
-                    <p style="font-size: 1.5rem; color: hsl(var(--color-foreground)); line-height: 1.75; margin-bottom: 2rem; font-style: italic; text-align: center;">
+                    <p style="font-size: 1.5rem; color: hsl(var(--color-foreground)); line-height: 1.625; margin-bottom: 1.5rem; font-style: italic; text-align: center;">
                         "Foi a luz no fim do túnel pra mim, porque eu estava passando por tanta coisa naqueles primeiros dias, sem conseguir amamentar... realmente foi o que me salvou"
                     </p>
                     
-                    <div style="position: relative; max-width: 20rem; margin: 0 auto 2rem;">
+                    <div style="position: relative; max-width: 20rem; margin: 0 auto 1.5rem;">
                         <div style="position: relative; aspect-ratio: 9/16; background: hsl(var(--color-card)); border-radius: var(--radius-2xl); overflow: hidden; box-shadow: var(--shadow-soft); border: 1px solid hsl(var(--color-border));">
                             <iframe
                                 style="width: 100%; height: 100%;"

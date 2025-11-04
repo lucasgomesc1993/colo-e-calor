@@ -290,15 +290,10 @@ p {
 }
 
 /* ==========================================
-   HEADER FIXO
+   HEADER
    ========================================== */
 
 .site-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000;
   background: hsl(var(--color-background) / 0.8);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
