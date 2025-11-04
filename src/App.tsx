@@ -12,6 +12,9 @@ import { ConsultantSection } from "@/components/ConsultantSection";
 import { FAQSection } from "@/components/FAQSection";
 import { FinalCTASection } from "@/components/FinalCTASection";
 import { Footer } from "@/components/Footer";
+// Importando seções faltantes
+import { PricingSection } from "@/components/PricingSection";
+import { AboutSection } from "@/components/AboutSection";
 
 function App() {
   return (
@@ -19,15 +22,17 @@ function App() {
       <Header />
       <main>
         <HeroSection />
-        <PainPointsSection />
-        <TargetAudienceSection />
         <TestimonialsSection />
-        <SuccessStorySection />
-        <MethodSection />
-        <GuaranteeSection />
         <OfferSection />
-        <BonusSection />
+        <PainPointsSection />
         <ConsultantSection />
+        <MethodSection />
+        <BonusSection />
+        <SuccessStorySection />
+        <TargetAudienceSection />
+        <PricingSection />
+        <GuaranteeSection />
+        <AboutSection />
         <FAQSection />
         <FinalCTASection />
       </main>
