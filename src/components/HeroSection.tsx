@@ -2,6 +2,14 @@ import { Button } from "@/components/ui/button";
 import { Play } from "lucide-react";
 
 export const HeroSection = () => {
+  const handleScrollToPricing = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    const pricingSection = document.getElementById("pricing");
+    if (pricingSection) {
+      pricingSection.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-background via-accent/20 to-background">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,hsl(var(--primary-glow)/0.1),transparent_50%)]" />
@@ -31,8 +39,8 @@ export const HeroSection = () => {
           </div>
 
           <div className="flex justify-center">
-            <Button asChild size="lg" className="text-base md:text-lg px-6 md:px-8 py-6 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 bg-gradient-to-r from-primary to-primary-glow hover:scale-105 whitespace-normal leading-tight">
-              <a href="https://lastlink.com/p/C00A5AE1C/checkout-payment/" target="_blank" rel="noopener noreferrer">
+            <Button size="lg" className="text-base md:text-lg px-6 md:px-8 py-6 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 bg-gradient-to-r from-primary to-primary-glow hover:scale-105 whitespace-normal leading-tight">
+              <a href="#pricing" onClick={handleScrollToPricing}>
                 Quero começar agora!
               </a>
             </Button>

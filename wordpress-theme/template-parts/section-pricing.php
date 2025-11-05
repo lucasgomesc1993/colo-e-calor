@@ -1,4 +1,4 @@
-<section class="pricing-section section" style="background: linear-gradient(to bottom right, hsl(var(--color-primary) / 0.1), hsl(var(--color-background)), hsl(var(--color-secondary) / 0.1)); position: relative; overflow: hidden; padding: 6rem 0;">
+<section id="pricing" class="pricing-section section" style="background: linear-gradient(to bottom right, hsl(var(--color-primary) / 0.1), hsl(var(--color-background)), hsl(var(--color-secondary) / 0.1)); position: relative; overflow: hidden; padding: 6rem 0;">
     <div style="position: absolute; inset: 0; background: radial-gradient(circle at 70% 30%, hsl(var(--color-secondary) / 0.1), transparent 60%);"></div>
     
     <div class="container" style="position: relative; z-index: 10;">

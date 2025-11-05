@@ -12,7 +12,7 @@ export const PricingSection = () => {
   ];
 
   return (
-    <section className="py-24 bg-gradient-to-br from-primary/10 via-background to-secondary/10 relative overflow-hidden">
+    <section id="pricing" className="py-24 bg-gradient-to-br from-primary/10 via-background to-secondary/10 relative overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_30%,hsl(var(--secondary)/0.1),transparent_60%)]" />
       
       <div className="container mx-auto px-4 relative z-10">

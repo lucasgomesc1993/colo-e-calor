@@ -37,6 +37,9 @@ function colo_calor_setup() {
         'flex-height' => true,
         'flex-width'  => true,
     ) );
+    
+    // Habilita o sitemap do WordPress
+    add_theme_support( 'wp-block-styles' );
 }
 add_action( 'after_setup_theme', 'colo_calor_setup' );
 
@@ -177,6 +180,24 @@ function colo_calor_body_classes( $classes ) {
     return $classes;
 }
 add_filter( 'body_class', 'colo_calor_body_classes' );
+
+/**
+ * Adiciona meta tags para SEO
+ */
+function colo_calor_add_meta_tags() {
+    if (is_front_page()) {
+        echo '<meta name="description" content="Descubra o Método Colo & Calor: 8 passos para uma amamentação sem dor e cheia de amor. Pare de sofrer calada e crie uma conexão poderosa com seu bebê desde o primeiro instante." />' . "\n";
+    }
+}
+add_action('wp_head', 'colo_calor_add_meta_tags');
+
+/**
+ * Habilita o sitemap do WordPress
+ */
+add_action( 'init', 'colo_calor_enable_sitemap' );
+function colo_calor_enable_sitemap() {
+    add_filter( 'wp_sitemaps_enabled', '__return_true' );
+}
 
 /**
  * Helper function para obter link de CTA

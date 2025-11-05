@@ -10,6 +10,14 @@ export const BonusSection = () => {
     { icon: BookOpen, title: "Bônus #5", description: "Ebook: tratando fissuras em casa" }
   ];
 
+  const handleScrollToPricing = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    const pricingSection = document.getElementById("pricing");
+    if (pricingSection) {
+      pricingSection.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+
   return (
     <section className="py-24 bg-gradient-to-b from-background to-accent/10">
       <div className="container mx-auto px-4">
@@ -43,8 +51,8 @@ export const BonusSection = () => {
           </div>
 
           <div className="text-center">
-            <Button asChild size="lg" className="text-lg px-8 py-6 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
-              <a href="https://lastlink.com/p/C00A5AE1C/checkout-payment/" target="_blank" rel="noopener noreferrer">
+            <Button size="lg" className="text-lg px-8 py-6 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
+              <a href="#pricing" onClick={handleScrollToPricing}>
                 Quero todos os bônus!
               </a>
             </Button>

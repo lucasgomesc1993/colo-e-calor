@@ -26,6 +26,14 @@ export const TestimonialsSection = () => {
     }
   ];
 
+  const handleScrollToPricing = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    const pricingSection = document.getElementById("pricing");
+    if (pricingSection) {
+      pricingSection.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+
   return (
     <section className="py-24 bg-gradient-to-b from-accent/10 to-background">
       <div className="container mx-auto px-4">
@@ -68,8 +76,8 @@ export const TestimonialsSection = () => {
           </div>
 
           <div className="text-center">
-            <Button asChild size="lg" className="text-base md:text-lg px-6 md:px-8 py-6 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 whitespace-normal leading-tight">
-              <a href="https://lastlink.com/p/C00A5AE1C/checkout-payment/" target="_blank" rel="noopener noreferrer">
+            <Button size="lg" className="text-base md:text-lg px-6 md:px-8 py-6 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 whitespace-normal leading-tight">
+              <a href="#pricing" onClick={handleScrollToPricing}>
                 Sim! Eu quero o Método Colo & Calor
               </a>
             </Button>

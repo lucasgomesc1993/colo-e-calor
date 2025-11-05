@@ -76,7 +76,7 @@
             </div>
 
             <div class="text-center">
-                <a href="<?php echo colo_calor_get_cta_link(); ?>" class="btn" style="font-size: clamp(1rem, 2vw, 1.125rem); padding: 1.5rem clamp(1.5rem, 4vw, 2rem); display: inline-flex; align-items: center; justify-content: center;">
+                <a href="#pricing" class="btn" style="font-size: clamp(1rem, 2vw, 1.125rem); padding: 1.5rem clamp(1.5rem, 4vw, 2rem); display: inline-flex; align-items: center; justify-content: center;">
                     Sim! Eu quero o Método Colo & Calor
                 </a>
             </div>

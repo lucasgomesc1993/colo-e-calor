@@ -26,7 +26,7 @@
             </div>
 
             <div class="text-center">
-                <a href="<?php echo colo_calor_get_cta_link(); ?>" class="btn btn-hero" style="display: inline-flex; align-items: center; justify-content: center; background: linear-gradient(to right, hsl(var(--color-primary)), hsl(var(--color-secondary)));">
+                <a href="#pricing" class="btn btn-hero" style="display: inline-flex; align-items: center; justify-content: center; background: linear-gradient(to right, hsl(var(--color-primary)), hsl(var(--color-secondary)));">
                     Quero começar agora!
                 </a>
             </div>
