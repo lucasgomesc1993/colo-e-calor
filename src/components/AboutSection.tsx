@@ -1,5 +1,6 @@
 import camilaPhoto from "@/assets/camila-toniatti-2.jpg";
-import { Award, BookOpen, Users } from "lucide-react";
+// Removido imports não utilizados: Award, BookOpen, Users
+import { Award } from "lucide-react"; // Mantido apenas Award, mas não será usado
 
 export const AboutSection = () => {
   return (
@@ -71,20 +72,7 @@ Consultora em Aleitamento Materno
                 </p>
               </div>
 
-              <div className="space-y-4">
-                {[
-                  { icon: Award, text: "Consultora de amamentação desde 2020" },
-                  { icon: Users, text: "Idealizadora do evento Bem Gestar" },
-                  { icon: BookOpen, text: "Coautora do livro CONHE'SER VOCÊ" }
-                ].map((item, index) => (
-                  <div key={index} className="flex items-center gap-4 p-4 bg-card rounded-xl border border-border">
-                    <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
-                      <item.icon className="w-6 h-6 text-primary" />
-                    </div>
-                    <p className="text-foreground font-medium">{item.text}</p>
-                  </div>
-                ))}
-              </div>
+              {/* Removida a seção com os itens solicitados */}
             </div>
           </div>
         </div>

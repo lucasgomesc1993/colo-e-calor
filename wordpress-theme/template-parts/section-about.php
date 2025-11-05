@@ -64,34 +64,7 @@ Conheça sua Consultora
                         </p>
                     </div>
 
-                    <div style="display: flex; flex-direction: column; gap: 1rem;">
-                        <div style="display: flex; align-items: center; gap: 1rem; padding: 1rem; background: hsl(var(--color-card)); border-radius: var(--radius-xl); border: 1px solid hsl(var(--color-border));">
-                            <div style="width: 3rem; height: 3rem; background: hsl(var(--color-primary) / 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
-                                <i class="fas fa-award" style="color: hsl(var(--color-primary)); font-size: 1.5rem;"></i>
-                            </div>
-                            <p style="color: hsl(var(--color-foreground)); font-weight: 500; margin: 0;">
-                                Consultora de amamentação desde 2020
-                            </p>
-                        </div>
-
-                        <div style="display: flex; align-items: center; gap: 1rem; padding: 1rem; background: hsl(var(--color-card)); border-radius: var(--radius-xl); border: 1px solid hsl(var(--color-border));">
-                            <div style="width: 3rem; height: 3rem; background: hsl(var(--color-primary) / 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
-                                <i class="fas fa-users" style="color: hsl(var(--color-primary)); font-size: 1.5rem;"></i>
-                            </div>
-                            <p style="color: hsl(var(--color-foreground)); font-weight: 500; margin: 0;">
-                                Idealizadora do evento Bem Gestar
-                            </p>
-                        </div>
-
-                        <div style="display: flex; align-items: center; gap: 1rem; padding: 1rem; background: hsl(var(--color-card)); border-radius: var(--radius-xl); border: 1px solid hsl(var(--color-border));">
-                            <div style="width: 3rem; height: 3rem; background: hsl(var(--color-primary) / 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
-                                <i class="fas fa-book-open" style="color: hsl(var(--color-primary)); font-size: 1.5rem;"></i>
-                            </div>
-                            <p style="color: hsl(var(--color-foreground)); font-weight: 500; margin: 0;">
-                                Coautora do livro CONHE'SER VOCÊ
-                            </p>
-                        </div>
-                    </div>
+                    <!-- Removida a seção com os itens solicitados -->
                 </div>
             </div>
         </div>

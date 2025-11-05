@@ -16,8 +16,8 @@
                     array('name' => 'o que fazer se seu bebê rejeitar o peito nas primeiras mamadas', 'value' => 'R$ 198,00'),
                     array('name' => 'Tratando fissuras em casa', 'value' => 'R$ 57,00'),
                     array('name' => 'Facilitando introdução alimentar durante a amamentação', 'value' => 'R$ 27,00'),
-                    array('name' => 'Check List 7 Alimentos essenciais', 'value' => 'R$ 9,00'),
-                    array('name' => 'Check List Mamada sem dor', 'value' => 'R$ 9,00')
+                    array('name' => 'Check List 7 Alimentos essenciais', 'value' => 'R$ 29,00'),
+                    array('name' => 'Check List Mamada sem dor', 'value' => 'R$ 49,00')
                 );
                 ?>
 
@@ -40,7 +40,7 @@
                 <div style="border-top: 2px solid hsl(var(--color-primary) / 0.2); padding-top: 1rem; margin-bottom: 1rem;">
                     <div style="display: flex; align-items: center; justify-content: space-between;">
                         <span style="font-size: 1.25rem; font-weight: 700; color: hsl(var(--color-foreground));">Valor Total:</span>
-                        <span style="font-size: 1.875rem; font-weight: 700; color: hsl(var(--color-muted-foreground)); text-decoration: line-through;">R$ 897,00</span>
+                        <span style="font-size: 1.875rem; font-weight: 700; color: hsl(var(--color-muted-foreground)); text-decoration: line-through;">R$ 957,00</span>
                     </div>
                 </div>
 

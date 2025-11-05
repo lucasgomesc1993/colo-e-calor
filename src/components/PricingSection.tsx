@@ -7,8 +7,8 @@ export const PricingSection = () => {
     { name: "o que fazer se seu bebê rejeitar o peito nas primeiras mamadas", value: "R$ 198,00" },
     { name: "Tratando fissuras em casa", value: "R$ 57,00" },
     { name: "Facilitando introdução alimentar durante a amamentação", value: "R$ 27,00" },
-    { name: "Check List 7 Alimentos essenciais", value: "R$ 9,00" },
-    { name: "Check List Mamada sem dor", value: "R$ 9,00" }
+    { name: "Check List 7 Alimentos essenciais", value: "R$ 29,00" },
+    { name: "Check List Mamada sem dor", value: "R$ 49,00" }
   ];
 
   return (
@@ -39,7 +39,7 @@ export const PricingSection = () => {
             <div className="border-t-2 border-primary/20 pt-6 mb-6">
               <div className="flex items-center justify-between">
                 <span className="text-xl font-bold text-foreground">Valor Total:</span>
-                <span className="text-3xl font-bold text-muted-foreground line-through">R$ 897,00</span>
+                <span className="text-3xl font-bold text-muted-foreground line-through">R$ 957,00</span>
               </div>
             </div>
 
